@@ -37,10 +37,8 @@
                 <div class="explain"><p>ここではカクテルの作り方を確認出来ます</p></div>
             </div>
 
-            <div class="searchBoxWrapper">
-                <input class="searchBox" type="text"placeholder="  カクテル名を入力してください" v-model="keyword">
-            </div>
-            
+            <input class="searchBox" type="text" placeholder="  カクテル名を入力してください" v-model="keyword">
+
             <div class="cardWrapper">
 
                 <div class="card" v-for="cocktail in filteredCocktails" :key="cocktail.id">

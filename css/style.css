@@ -158,9 +158,6 @@ footer {
     color: #888;
   }
 
-  .searchBoxWrapper{
-    text-align: center;
-  }
   .searchBox{
     width: 400px;
     height: 50px;
@@ -298,6 +295,7 @@ footer {
     #app{text-align: center;}
 
     .searchBox{
+      font-size: 1.4rem;
       width: 90%;
       margin-top: 10px;
     }
