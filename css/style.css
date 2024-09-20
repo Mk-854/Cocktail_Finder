@@ -150,6 +150,14 @@ footer {
     margin: auto;
     background-color: #f2f0f0;
   }
+
+  .app_title{font-size: 35px;}
+  
+  .explain{
+    margin: 10px;
+    color: #888;
+  }
+
   .searchBoxWrapper{
     text-align: center;
   }
@@ -157,8 +165,6 @@ footer {
     width: 400px;
     height: 50px;
     border: none;
-    margin-top: 30px;
-    margin-bottom: 60px;
     border-radius: 10px;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
   }
@@ -175,10 +181,10 @@ footer {
   .card{
     max-width:300px;
     min-width: 300px;
-    height: 450px;
+    height: 400px;
     background-color: white;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 70px;
     border-radius: 10px;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
     overflow: hidden;
@@ -231,7 +237,6 @@ footer {
   .modal__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
   
   .modal__close::before {content: "\2715";}
@@ -257,13 +262,9 @@ footer {
     to {transform: translateY(-10%);}
   }
   
-  .micromodal-slide {
-    display: none;
-  }
+  .micromodal-slide {display: none;}
   
-  .micromodal-slide.is-open {
-    display: block;
-  }
+  .micromodal-slide.is-open {display: block;}
   
   .micromodal-slide[aria-hidden="false"] .modal__overlay {
     animation: mmfadeIn 0.8s cubic-bezier(0.34, 0.07, 0.095, 0.995);
@@ -286,41 +287,26 @@ footer {
     will-change: transform;
   }
   
-  .sp-ArtistImg{
-    max-width: 500px;
-  }
+  .sp-RecipeImg{max-width: 500px;}
+
   .sp{display: none;}
   
   .sentence{
     padding: 40px;
-    text-align: center;
   }
   @media all and (max-width: 670px) {
-    .sentence{padding-bottom: 0px;}
-  }
-  @media all and (max-width: 670px) {
-    #app{
-      text-align: center;
-    }
+    #app{text-align: center;}
+
     .searchBox{
       width: 90%;
-      margin-bottom: 0px;
+      margin-top: 10px;
     }
-    .sp-RecipeImg{
-      max-width: 100%;
-    }
-    .sp{
-      display: block;
-    }
+    .sentence{padding-bottom: 0px;}
+    .card{margin-top: 30px;}
+    .sp-RecipeImg{max-width: 100%;}
+    .sp{display: block;}
   }
   
-  .app_title{
-    font-size: 35px;
-  }
-  .explain{
-    margin: 10px;
-    color: #888;
-  }
   .coctailDetail{
     height: 90vh;
     width: 85vw;
